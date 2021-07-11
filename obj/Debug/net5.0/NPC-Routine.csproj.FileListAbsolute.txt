@@ -1,0 +1,16 @@
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.exe
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.deps.json
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.runtimeconfig.json
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.runtimeconfig.dev.json
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.dll
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\ref\NPC-Routine.dll
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\bin\Debug\net5.0\NPC-Routine.pdb
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.csprojAssemblyReference.cache
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.AssemblyInfoInputs.cache
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.AssemblyInfo.cs
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.csproj.CoreCompileInputs.cache
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.dll
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\ref\NPC-Routine.dll
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.pdb
+C:\Users\gurachan\Desktop\Github\dotNetCore-NPC-Routine\obj\Debug\net5.0\NPC-Routine.genruntimeconfig.cache
