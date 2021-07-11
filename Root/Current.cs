@@ -5,9 +5,23 @@ namespace NPC_Routine_NetCore
 {
     static class Current
     {
-        // All NPC Routines
+        // All NPC Schedules
         public static List<Schedule> ScheduleList = new List<Schedule>();
+        // Get Each Character's Schedules at the beginning of the day, then sorts it by Time
+        public static void SetSchedules()
+        {
+            // Empties the current list
+            ScheduleList = new List<Schedule>();
 
+            // add Schedules to the list
+            foreach (var character in Current.characters.Values)
+            {
+                ScheduleList.AddRange(character.GetRoutine());
+            }
+
+            // Sorts list
+            ScheduleList.OrderBy(schedule => schedule.time.minutes).ToList();
+        }
 
         // Tracks the current day and time
         public static Calendar calendar = new Calendar(1);
@@ -19,21 +33,7 @@ namespace NPC_Routine_NetCore
         // Who your character is married with
         public static CharacterID marriedWith = CharacterID.Empty;
 
-        // Get Each Character's Routines at the beginning of the day, then sorts it by Time
-        public static void SetRoutines()
-        {
-            // Empties the current list
-            ScheduleList = new List<Schedule>();
 
-            // add Routines to the list
-            foreach (var character in Current.characters.Values)
-            {
-                ScheduleList.AddRange(character.GetRoutine());
-            }
-
-            // Sorts list
-            ScheduleList.OrderBy(schedule => schedule.time.minutes).ToList();
-        }
 
     }//End of Current
 }

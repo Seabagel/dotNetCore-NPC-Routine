@@ -8,7 +8,7 @@ namespace NPC_Routine_NetCore
        public List<Schedule> GetSchedule()
         {
             // Make a new empty list
-            List<Schedule> ScheduleList = new List<Schedule>();
+            List<Schedule> List = new List<Schedule>();
 
             if (Current.marriedWith.Equals(ID))
             {
@@ -21,14 +21,14 @@ namespace NPC_Routine_NetCore
                 {
                     // Add the whole schedule of the day
                     case DayID.Tuesday:
-                        ScheduleList.Add(new Schedule(
+                        List.Add(new Schedule(
                             new Time(8, 30, true),
                             LocationID.Church,
                             ID)
                         );
                         break;
                     default:
-                        ScheduleList.Add(new Schedule(
+                        List.Add(new Schedule(
                             new Time(8, 30, true),
                             LocationID.Church,
                             ID)
