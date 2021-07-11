@@ -5,9 +5,6 @@ namespace NPC_Routine_NetCore
 {
     static class Current
     {
-        // List of all Characters
-        public static Dictionary<CharacterID, ICharacter> characters = new Dictionary<CharacterID, ICharacter>();
-
         // All NPC Routines
         public static List<Schedule> ScheduleList = new List<Schedule>();
 
@@ -18,13 +15,9 @@ namespace NPC_Routine_NetCore
 
         // Weather
         public static bool raining = false;
-        public static CharacterID marriedWith = CharacterID.Empty;
 
-        // Initialize the characters at the beginning of the game
-        public static void SetCharacters()
-        {
-            characters.Add(CharacterID.Evelynn, new Character_Evelynn(CharacterID.Evelynn));
-        }
+        // Who your character is married with
+        public static CharacterID marriedWith = CharacterID.Empty;
 
         // Get Each Character's Routines at the beginning of the day, then sorts it by Time
         public static void SetRoutines()
